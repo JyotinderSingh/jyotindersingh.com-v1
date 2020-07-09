@@ -35,12 +35,12 @@
 .btn-text {
   &:link,
   &:visited {
-    font-size: $default-font-size;
+    font-size: 3rem;
     color: $color-primary;
     display: inline-block;
     text-decoration: none;
     border-bottom: 1px solid $color-primary;
-    padding: 3px;
+    padding: 0.5rem;
     transition: all 0.2s;
   }
   &:hover {
