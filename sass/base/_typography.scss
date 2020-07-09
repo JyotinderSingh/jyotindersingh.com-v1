@@ -1,0 +1,42 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  color: $color-grey-body;
+  padding: 3rem;
+}
+
+.heading-primary {
+  color: $color-grey-dark;
+  backface-visibility: hidden;
+  text-align: left;
+  margin-bottom: 7rem;
+
+  &--main {
+    background-image: linear-gradient(
+      to bottom right,
+      rgba($color-primary, 0.7),
+      rgba($color-primary-dark, 0.7)
+    );
+    padding: 1rem;
+    display: block;
+    font-size: 6rem;
+    font-weight: 900;
+    /* letter-spacing: 5px; */
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+
+  &--sub {
+    display: block;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+  }
+}
