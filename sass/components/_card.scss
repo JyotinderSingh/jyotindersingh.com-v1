@@ -81,13 +81,37 @@
         url(../img/shoplyft.png);
     }
     &--3 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-tertiary-light, 0.5),
+          rgba($color-tertiary-dark, 0.5)
+        ),
+        url(../img/socialape.png);
+    }
+    &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-primary-light, 0.2),
+          rgba($color-primary-dark, 0.2)
+        ),
+        url(../img/javaflix.png);
+    }
+    &--5 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-tertiary-light, 0.5),
+          rgba($color-tertiary-dark, 0.5)
+        ),
+        url(../img/coviddash.png);
+    }
+    &--6 {
         background-image: linear-gradient(
             to right bottom,
-            rgba($color-tertiary-light, 0.5),
-            rgba($color-tertiary-dark, 0.5)
+            rgba($color-secondary-light, 0.8),
+            rgba($color-secondary-dark, 0.8)
           ),
-          url(../img/socialape.png);
-    }
+          url(../img/urlshortner.png);
+      }
   }
 
   &__heading {
