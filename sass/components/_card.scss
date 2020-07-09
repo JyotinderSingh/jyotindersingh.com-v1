@@ -63,6 +63,8 @@
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 
     &--1 {
       background-image: linear-gradient(
@@ -105,13 +107,13 @@
         url(../img/coviddash.png);
     }
     &--6 {
-        background-image: linear-gradient(
-            to right bottom,
-            rgba($color-secondary-light, 0.8),
-            rgba($color-secondary-dark, 0.8)
-          ),
-          url(../img/urlshortner.png);
-      }
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-secondary-light, 0.8),
+          rgba($color-secondary-dark, 0.8)
+        ),
+        url(../img/urlshortner.png);
+    }
   }
 
   &__heading {

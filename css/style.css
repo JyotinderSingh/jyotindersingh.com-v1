@@ -103,6 +103,12 @@ body {
 .u-margin-left-small {
   margin-left: 2rem; }
 
+.u-margin-top-big {
+  margin-top: 8rem; }
+
+.u-margin-top-huge {
+  margin-top: 10rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -154,6 +160,9 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translate(0); }
+
+.btn-text p {
+  font-size: 1.5rem; }
 
 .composition {
   position: relative; }
@@ -225,7 +234,9 @@ body {
     height: 23rem;
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.2), rgba(255, 119, 48, 0.2)), url(../img/tinyflow.png); }
     .card__picture--2 {
@@ -288,6 +299,46 @@ body {
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 6rem; }
 
+.footer {
+  background-color: #2c2c2c;
+  color: #f7f7f7;
+  padding: 10rem 0;
+  font-size: 1.4rem; }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 8rem;
+    font-size: 2rem;
+    color: #f7f7f7; }
+  .footer__logo {
+    color: #eb2a6a; }
+  .footer__navigation {
+    border-top: 1px solid rgba(238, 238, 238, 0.5);
+    padding-top: 2rem;
+    display: inline-block; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    color: #f7f7f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #2c2c2c;
+    transition: all 0.2s; }
+  .footer__link:hover, .footer__link:active {
+    color: #a89fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: translateY(-0.5rem) scale(1.1); }
+  .footer__copyright {
+    border-top: 1px solid rgba(238, 238, 238, 0.5);
+    padding-top: 2rem;
+    text-align: right;
+    width: 70%;
+    float: right; }
+
 .header {
   height: 95vh;
   background-size: cover;
@@ -341,5 +392,5 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
