@@ -56,6 +56,16 @@ body {
   letter-spacing: 2px;
 }
 
+.heading-secondary-bg {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  letter-spacing: 2px;
+  color: $color-white;
+  margin-top: -5rem;
+}
+
 .heading-tertiary {
   font-size: 1.8rem;
   font-weight: 700;
