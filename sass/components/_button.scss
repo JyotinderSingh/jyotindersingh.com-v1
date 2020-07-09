@@ -26,6 +26,14 @@
     color: rgba($color-primary, 0.9);
   }
 
+  &--card-white {
+    background-color: $color-white;
+    border: none;
+    border-radius: 5rem;
+    color: $color-grey-body;
+    font-weight: 300;
+  }
+
   &--animated {
     animation: moveInBottom 0.8s ease-out 0.95s;
     animation-fill-mode: backwards;
