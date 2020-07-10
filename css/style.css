@@ -363,7 +363,7 @@ body {
     font-size: 10rem;
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 6rem; }
-  @media (max-width: 56.25em) {
+  @media (max-width: 75em) {
     .card {
       height: auto;
       border-radius: 3px;
