@@ -570,7 +570,7 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -500px;
   z-index: 1500;
   opacity: 0;
   width: 0;
@@ -609,6 +609,7 @@ body {
   transform: scale(80); }
 
 .navigation__checkbox:checked ~ .navigation__nav {
+  left: 0%;
   opacity: 1;
   width: 100%; }
 
